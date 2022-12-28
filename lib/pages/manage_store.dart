@@ -8,6 +8,7 @@ class ManageStore extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFEDEAEA),
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         centerTitle: true,
         title: const Text('Manage Store'),
       ),
@@ -313,17 +314,38 @@ class ManageStore extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Expanded(
-                                child: Container(
-                                  decoration: const BoxDecoration(
-                                    color: Color.fromARGB(255, 147, 81, 162),
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(5)),
-                                  ),
-                                  width: 50,
-                                  child: const Icon(
-                                    Icons.format_align_left_outlined,
-                                    color: Color(0xFFFFFFFF),
-                                  ),
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: const BoxDecoration(
+                                          color: Color(0xFF9351A2),
+                                          borderRadius: BorderRadius.all(
+                                              Radius.circular(5)),
+                                        ),
+                                        width: 45,
+                                        height: 50,
+                                        child: const Icon(
+                                          Icons.format_align_left_outlined,
+                                          color: Color(0xFFFFFFFF),
+                                        ),
+                                      ),
+                                    ),
+                                    const SizedBox(
+                                      width: 60,
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.all(8.0),
+                                      child: Text(
+                                        'New',
+                                        textWidthBasis: TextWidthBasis.parent,
+                                        style: TextStyle(
+                                            color: Colors.white,
+                                            backgroundColor: Colors.green),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                               const Expanded(
