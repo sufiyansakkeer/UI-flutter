@@ -12,6 +12,7 @@ class _DukaanPremiumState extends State<DukaanPremium> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         elevation: 0,
         leading: IconButton(
             onPressed: () {
@@ -304,8 +305,11 @@ class _DukaanPremiumState extends State<DukaanPremium> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                decoration:
-                    const BoxDecoration(border: Border(bottom: BorderSide())),
+                decoration: const BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(),
+                  ),
+                ),
                 child: ExpansionTile(
                   title: const Text(
                     'What is your refund policy?',
@@ -325,8 +329,11 @@ class _DukaanPremiumState extends State<DukaanPremium> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                decoration:
-                    const BoxDecoration(border: Border(bottom: BorderSide())),
+                decoration: const BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(),
+                  ),
+                ),
                 child: ExpansionTile(
                   title: const Text(
                     'Will there be an automatic charge after the paid trial?',
@@ -346,8 +353,11 @@ class _DukaanPremiumState extends State<DukaanPremium> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                decoration:
-                    const BoxDecoration(border: Border(bottom: BorderSide())),
+                decoration: const BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(),
+                  ),
+                ),
                 child: ExpansionTile(
                   title: const Text(
                     'What payment methods do you offer?',
@@ -367,8 +377,11 @@ class _DukaanPremiumState extends State<DukaanPremium> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                decoration:
-                    const BoxDecoration(border: Border(bottom: BorderSide())),
+                decoration: const BoxDecoration(
+                  border: Border(
+                    bottom: BorderSide(),
+                  ),
+                ),
                 child: ExpansionTile(
                   title: const Text(
                     'What happens when my free trial ends?',

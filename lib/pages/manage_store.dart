@@ -17,7 +17,9 @@ class ManageStore extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                ),
                 child: Row(
                   children: [
                     Padding(

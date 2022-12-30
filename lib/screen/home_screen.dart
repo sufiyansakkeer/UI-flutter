@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+
 import 'package:templates/pages/additional_information_screen.dart';
+import 'package:templates/pages/camera_screen.dart';
 import 'package:templates/pages/dukaan_premium.dart';
 import 'package:templates/pages/manage_store.dart';
+import 'package:templates/pages/order_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -62,12 +63,12 @@ class HomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: ((context) {
-                      return const DukaanPremium();
+                      return const OrderScreen();
                     })),
                   );
                 }),
                 child: const Text(
-                  'Dukaan premium',
+                  'Order Screen',
                 ),
               ),
               TextButton(
@@ -75,12 +76,12 @@ class HomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: ((context) {
-                      return const DukaanPremium();
+                      return CameraScreen();
                     })),
                   );
                 }),
                 child: const Text(
-                  'Dukaan premium',
+                  'Camera screen',
                 ),
               ),
             ],
