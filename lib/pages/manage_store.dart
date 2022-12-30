@@ -96,7 +96,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'Online Payment',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -146,7 +146,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'Discount Coupons',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -189,7 +189,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'My Costumers',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -239,7 +239,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'Store QR Code',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -282,7 +282,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'Extra Charges',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -335,12 +335,12 @@ class ManageStore extends StatelessWidget {
                                       ),
                                     ),
                                     const SizedBox(
-                                      width: 60,
+                                      width: 50,
                                     ),
                                     const Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Text(
-                                        'New',
+                                        ' New ',
                                         textWidthBasis: TextWidthBasis.parent,
                                         style: TextStyle(
                                             color: Colors.white,
@@ -353,7 +353,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Marketing Design',
+                                    'Order Form',
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
