@@ -282,7 +282,7 @@ class ManageStore extends StatelessWidget {
                               const Expanded(
                                 child: Center(
                                   child: Text(
-                                    'Extra Charges',
+                                    "Extra        Charges",
                                     style: TextStyle(
                                       fontSize: 20,
                                     ),
@@ -335,16 +335,27 @@ class ManageStore extends StatelessWidget {
                                       ),
                                     ),
                                     const SizedBox(
-                                      width: 50,
+                                      width: 60,
                                     ),
-                                    const Padding(
-                                      padding: EdgeInsets.all(8.0),
-                                      child: Text(
-                                        ' New ',
-                                        textWidthBasis: TextWidthBasis.parent,
-                                        style: TextStyle(
+                                    Container(
+                                      width: 45,
+                                      height: 20,
+                                      decoration: const BoxDecoration(
+                                        color: Colors.green,
+                                        borderRadius: BorderRadius.all(
+                                          Radius.circular(
+                                            5,
+                                          ),
+                                        ),
+                                      ),
+                                      child: const Center(
+                                        child: Text(
+                                          ' New',
+                                          textWidthBasis: TextWidthBasis.parent,
+                                          style: TextStyle(
                                             color: Colors.white,
-                                            backgroundColor: Colors.green),
+                                          ),
+                                        ),
                                       ),
                                     ),
                                   ],

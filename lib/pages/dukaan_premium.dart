@@ -120,7 +120,13 @@ class _DukaanPremiumState extends State<DukaanPremium> {
               // height: ,
             ),
             const ListTile(
-              title: Text('Features'),
+              title: Text(
+                'Features',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
             ),
             const ListTile(
               leading: CircleAvatar(
@@ -209,13 +215,21 @@ class _DukaanPremiumState extends State<DukaanPremium> {
               thickness: 4,
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15, right: 20),
+              padding: const EdgeInsets.only(
+                left: 20,
+                top: 15,
+                right: 20,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
                     'What is dukaan premium',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                    // style: TextStyle(fontSize: 20),
                   ),
                   const SizedBox(
                     height: 10,
@@ -277,7 +291,10 @@ class _DukaanPremiumState extends State<DukaanPremium> {
             const ListTile(
               title: Text(
                 'Frequently asked questions',
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
               ),
             ),
             Padding(
