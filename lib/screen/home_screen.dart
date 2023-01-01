@@ -6,6 +6,7 @@ import 'package:templates/pages/catalogue_page.dart';
 import 'package:templates/pages/dukaan_premium.dart';
 import 'package:templates/pages/manage_store.dart';
 import 'package:templates/pages/order_screen.dart';
+import 'package:templates/pages/payment_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Home Screen'),
       ),
       body: SafeArea(
@@ -114,13 +116,13 @@ class HomeScreen extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: ((context) {
-                        return CameraScreen();
+                        return const PaymentScreen();
                       }),
                     ),
                   );
                 }),
                 child: const Text(
-                  'Camera screen',
+                  'Payment screen',
                 ),
               ),
             ],

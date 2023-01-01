@@ -94,12 +94,10 @@ class ManageStore extends StatelessWidget {
                                 ),
                               ),
                               const Expanded(
-                                child: Center(
-                                  child: Text(
-                                    'Online Payment',
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                    ),
+                                child: Text(
+                                  'Online \nPayment',
+                                  style: TextStyle(
+                                    fontSize: 20,
                                   ),
                                 ),
                               ),
@@ -187,12 +185,10 @@ class ManageStore extends StatelessWidget {
                                 ),
                               ),
                               const Expanded(
-                                child: Center(
-                                  child: Text(
-                                    'My Costumers',
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                    ),
+                                child: Text(
+                                  "My\nCostumers",
+                                  style: TextStyle(
+                                    fontSize: 20,
                                   ),
                                 ),
                               ),
@@ -237,12 +233,11 @@ class ManageStore extends StatelessWidget {
                                 ),
                               ),
                               const Expanded(
-                                child: Center(
-                                  child: Text(
-                                    'Store QR Code',
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                    ),
+                                child: Text(
+                                  'Store QR\nCode',
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    fontSize: 20,
                                   ),
                                 ),
                               ),
@@ -280,12 +275,10 @@ class ManageStore extends StatelessWidget {
                                 ),
                               ),
                               const Expanded(
-                                child: Center(
-                                  child: Text(
-                                    "Extra        Charges",
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                    ),
+                                child: Text(
+                                  "Extra\nCharges",
+                                  style: TextStyle(
+                                    fontSize: 20,
                                   ),
                                 ),
                               ),
@@ -362,12 +355,10 @@ class ManageStore extends StatelessWidget {
                                 ),
                               ),
                               const Expanded(
-                                child: Center(
-                                  child: Text(
-                                    'Order Form',
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                    ),
+                                child: Text(
+                                  'Order \nForm',
+                                  style: TextStyle(
+                                    fontSize: 20,
                                   ),
                                 ),
                               ),
