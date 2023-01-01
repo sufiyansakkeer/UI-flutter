@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:templates/pages/additional_information_screen.dart';
-import 'package:templates/pages/camera_screen.dart';
+import 'package:templates/pages/camera_pages/camera_screen.dart';
+import 'package:templates/pages/catalogue_page.dart';
 import 'package:templates/pages/dukaan_premium.dart';
 import 'package:templates/pages/manage_store.dart';
 import 'package:templates/pages/order_screen.dart';
@@ -23,9 +24,11 @@ class HomeScreen extends StatelessWidget {
                 onPressed: (() {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: ((context) {
-                      return const AdditionalInformation();
-                    })),
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return const AdditionalInformation();
+                      }),
+                    ),
                   );
                 }),
                 child: const Text(
@@ -36,9 +39,11 @@ class HomeScreen extends StatelessWidget {
                 onPressed: (() {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: ((context) {
-                      return const DukaanPremium();
-                    })),
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return const DukaanPremium();
+                      }),
+                    ),
                   );
                 }),
                 child: const Text(
@@ -49,9 +54,11 @@ class HomeScreen extends StatelessWidget {
                 onPressed: (() {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: ((context) {
-                      return const ManageStore();
-                    })),
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return const ManageStore();
+                      }),
+                    ),
                   );
                 }),
                 child: const Text(
@@ -75,9 +82,41 @@ class HomeScreen extends StatelessWidget {
                 onPressed: (() {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: ((context) {
-                      return CameraScreen();
-                    })),
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return const CataloguePage();
+                      }),
+                    ),
+                  );
+                }),
+                child: const Text(
+                  'Catalogue page',
+                ),
+              ),
+              TextButton(
+                onPressed: (() {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return CameraScreen();
+                      }),
+                    ),
+                  );
+                }),
+                child: const Text(
+                  'Camera screen',
+                ),
+              ),
+              TextButton(
+                onPressed: (() {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: ((context) {
+                        return CameraScreen();
+                      }),
+                    ),
                   );
                 }),
                 child: const Text(

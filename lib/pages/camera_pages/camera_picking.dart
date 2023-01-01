@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'package:templates/pages/camera_screen.dart';
+import 'package:templates/pages/camera_pages/camera_screen.dart';
 
 class ImageView extends StatelessWidget {
   const ImageView({super.key, this.image});

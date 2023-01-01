@@ -56,6 +56,12 @@ flutter:
     - assets/images/download.png
     - assets/images/images.jpg
     - assets/images/MODEL.jpg
+    - assets/images/product1.jpg
+    - assets/images/product2.jpg
+    - assets/images/product3.jpg
+    - assets/images/product4.jpg
+    - assets/images/product5.png
+    - assets/images/product6.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

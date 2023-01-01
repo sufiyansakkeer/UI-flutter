@@ -505,7 +505,6 @@ class _OrderScreenState extends State<OrderScreen> {
                 child: Container(
                   width: 900,
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 255, 255, 255),
                     border: Border.all(
                       color: Colors.blue,
                     ),
@@ -515,8 +514,8 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   child: TextButton(
                     onPressed: (() {}),
-                    child: Text(
-                      'Share reciept',
+                    child: const Text(
+                      'Share receipt',
                     ),
                   ),
                 ),
