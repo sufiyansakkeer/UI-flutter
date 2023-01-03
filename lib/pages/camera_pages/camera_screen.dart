@@ -8,9 +8,14 @@ import 'package:templates/pages/camera_pages/camera_picking.dart';
 
 ValueNotifier<List> db = ValueNotifier([]);
 
-class CameraScreen extends StatelessWidget {
-  CameraScreen({super.key});
+class CameraScreen extends StatefulWidget {
+  const CameraScreen({super.key});
 
+  @override
+  State<CameraScreen> createState() => _CameraScreenState();
+}
+
+class _CameraScreenState extends State<CameraScreen> {
   File? image;
 
   @override

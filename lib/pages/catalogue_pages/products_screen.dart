@@ -8,7 +8,7 @@ class ProductScreen extends StatefulWidget {
 }
 
 class _ProductScreenState extends State<ProductScreen> {
-  bool isSwitched = false;
+  bool isSwitched = true;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -170,9 +170,10 @@ class _ProductScreenState extends State<ProductScreen> {
                                 Text(
                                   '₹799',
                                   style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.w500),
+                                    fontSize: 15,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                                 ),
                                 Divider(
                                   height: 5,

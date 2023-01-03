@@ -33,7 +33,7 @@ class CataloguePage extends StatelessWidget {
             ),
           ]),
         ),
-        body: TabBarView(
+        body: const TabBarView(
           children: [
             ProductScreen(),
             Catagories(),
