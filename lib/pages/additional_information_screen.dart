@@ -36,7 +36,7 @@ class _AdditionalInformationState extends State<AdditionalInformation> {
                   trailing: Icon(Icons.navigate_next),
                 ),
                 ListTile(
-                  leading: const Icon(Icons.whatsapp),
+                  leading: const Icon(Icons.chat),
                   title: const Text('Whatsapp Chat Support'),
                   trailing: Switch(
                       value: isSwitched,

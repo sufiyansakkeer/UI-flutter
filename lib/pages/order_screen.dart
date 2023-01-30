@@ -297,7 +297,7 @@ class _OrderScreenState extends State<OrderScreen> {
                           width: 20,
                         ),
                         Icon(
-                          Icons.whatsapp,
+                          Icons.chat,
                           color: Colors.green,
                         ),
                       ],
